@@ -1,0 +1,1 @@
+CREATE DATABASE notebook_db

@@ -1,0 +1,20 @@
+POST http://localhost:5200/books/create 
+Content-Type: application/json 
+
+{
+    "title": "book1",
+    "content": "eudbiseroiacdpioawecikepo"
+}
+
+### GET ALL USERS
+GET http://localhost:5200/books/all-books 
+Content-Type: application/json
+
+
+
+
+
+### GET SINGLE notebook 
+
+GET http://localhost:5200/books/0448d051-9b0a-4b85-8022-631d9ba86178
+Content-Type: application/json

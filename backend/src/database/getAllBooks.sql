@@ -1,0 +1,5 @@
+CREATE OR ALTER PROCEDURE getAllBooks
+AS
+BEGIN
+    SELECT * FROM books
+END

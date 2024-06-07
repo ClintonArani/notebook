@@ -1,0 +1,3 @@
+CREATE TABLE Users(id VARCHAR(255) PRIMARY KEY, name VARCHAR(255) NOT NULL, phone_number VARCHAR(20) NOT NULL, email VARCHAR(255) NOT NULL UNIQUE, password VARCHAR(255) NOT NULL UNIQUE, role VARCHAR(50) DEFAULT 'user', createdAt VARCHAR(255) NOT NULL, isWelcomed BIT Default 0 , isDeleted BIT Default 0)
+
+SELECT * FROM Users
